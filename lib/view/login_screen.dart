@@ -63,7 +63,7 @@ class _LoginScreenState extends State<LoginScreen> {
       autofocus: false,
       initialValue: 'alucard@gmail.com',
       decoration: InputDecoration(
-        hintText: 'Email',
+        hintText: 'Username',
         contentPadding: EdgeInsets.fromLTRB(20.0, 10.0, 20.0, 10.0),
         border: OutlineInputBorder(borderRadius: BorderRadius.circular(32.0)),
       ),
