@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:mpklver4/view/Navigation.dart';
+import 'package:mpklver4/view/jurnal_screen.dart';
 import 'package:mpklver4/view/login_screen.dart';
 import 'package:mpklver4/view/splash_screen.dart';
 
@@ -14,7 +16,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return const GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LoginScreen(),
+      home: Navigation(),
     );
   }
 }
